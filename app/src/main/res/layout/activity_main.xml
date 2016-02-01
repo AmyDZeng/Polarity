@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:padding="32dp"
+    >
+
+    <!--ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/textured_title"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:paddingBottom="20dp"
+        /-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:textSize="72dp"
+        android:textColor="@color/green"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/high_score"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="High Score: 0"
+        android:layout_below="@+id/title"
+        android:paddingBottom="32dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credits"
+        android:text="@string/alt_credits"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/high_score"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/credits"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:layout_alignLeft="@+id/clickToPlay"
+        android:layout_alignRight="@+id/clickToPlay"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/how_to_play_btn"
+        android:layout_below="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:layout_alignLeft="@+id/howToPlay"
+        android:layout_alignRight="@+id/howToPlay"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:textSize="20dp"
+        android:id="@+id/clickToPlay"
+        android:textColor="@color/green"
+        android:layout_below="@+id/credits"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_play"
+        android:id="@+id/howToPlay"
+        android:textColor="@color/green"
+        android:layout_below="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+
+</RelativeLayout>
