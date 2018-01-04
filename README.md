@@ -7,6 +7,7 @@ The objective of the game is to move on an infinitely scrolling surface where bl
 Available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.polarity.summerproject.polarity&hl=en)
 
 Credits to: 
+
 Takeo J Hirasawa for the icons
 
 Yu Fu for the music
